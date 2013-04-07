@@ -1,0 +1,11 @@
+{
+  "name": "default-typography",
+  "main": [
+    "./typography.css"
+  ],
+  "version": "0.0.1",
+  "dependencies": {
+    "stylus-type-utils": "*",
+    "blakeembrey/pinch-grid": "*"
+  }
+}
