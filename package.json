@@ -1,6 +1,6 @@
 {
   "name": "default-typography",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple default typography and font style decisions",
   "main": "lib/typography.js",
   "scripts": {
