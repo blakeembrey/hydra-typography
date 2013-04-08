@@ -111,18 +111,18 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 2em;
-  margin: 0.375em 0;
+  font-size: 1.8em;
+  margin: 0.41666666666666663em 0;
 }
 h3,
 .h3 {
-  font-size: 1.7em;
-  margin: 0.4411764705882353em 0;
+  font-size: 1.5em;
+  margin: 0.5em 0;
 }
 h4,
 .h4 {
-  font-size: 1.4em;
-  margin: 0.5357142857142857em 0;
+  font-size: 1.25em;
+  margin: 0.6em 0;
 }
 h5,
 .h5 {
@@ -241,7 +241,7 @@ blockquote {
   position: relative;
   margin: 0.75em 0 1.5em;
   padding-top: 1em;
-  padding-left: 4em;
+  padding-left: 3em;
 }
 blockquote:before {
   content: "\201C";
@@ -251,7 +251,7 @@ blockquote:before {
   font-weight: 200;
   position: absolute;
   top: -0.125em;
-  left: 0.125em;
+  left: 0;
 }
 blockquote p {
   font-size: 18.4px;
@@ -268,13 +268,13 @@ blockquote cite:before {
   content: "\2014 \00A0";
 }
 blockquote.pull-right {
-  padding-right: 4em;
+  padding-right: 3em;
   padding-left: 0;
 }
 blockquote.pull-right:before {
   content: "\201D";
   left: auto;
-  right: 0.125em;
+  right: 0;
 }
 blockquote.pull-right p,
 blockquote.pull-right cite {
