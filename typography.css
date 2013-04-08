@@ -49,12 +49,9 @@ strong,
   font-weight: bold;
 }
 em,
-dfn {
-  font-style: italic;
-}
+dfn,
 cite {
-  color: #999;
-  font-style: normal;
+  font-style: italic;
 }
 mark,
 .text-highlight {
@@ -261,6 +258,7 @@ blockquote p {
   margin-bottom: 0;
 }
 blockquote cite {
+  color: #999;
   display: block;
   line-height: 1.5;
 }
