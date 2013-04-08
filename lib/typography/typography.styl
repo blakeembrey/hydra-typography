@@ -1,8 +1,33 @@
 @import "../../components/stylus-type-utils"
 
-// Typography
-// --------------------------------------------------
+// HTML Style Resets
+// https://github.com/necolas/normalize.css/blob/master/normalize.css
+// -------------------------
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary
+  display: block
 
+audio,
+canvas,
+video
+  display: inline-block
+
+audio:not([controls])
+  display: none
+  height: 0
+
+[hidden]
+  display: none
 
 
 // Body text
@@ -53,17 +78,22 @@ a
   color: base-link-color
   text-decoration: none
 
+a:focus,
 a:hover,
-a:focus
+a:active
   color: base-link-color-hover
+
+a:hover
   text-decoration: underline
 
 
 // Emphasis & misc
 // -------------------------
 
-small
+small,
+.text-small
   font-size: 75%
+b,
 strong,
 .text-bold
   font-weight: bold
@@ -75,7 +105,7 @@ cite
 
 mark,
 .text-highlight
-  color: #000
+  color: black
   background: #ff0
 
 .text-left
@@ -85,6 +115,24 @@ mark,
 .text-center
   text-align: center
 
+
+// Embedable content
+// -------------------------
+img
+  border: 0 // Remove border when inside `a` element in IE 8/9
+  width: auto
+  height: auto
+  max-width: 100%
+  vertical-align: middle
+  // `max-width` doesn't play very well with Google Maps
+  .google-maps &
+    max-width: auto
+
+svg:not(:root)
+  overflow: hidden // Correct overflow displayed oddly in IE 9
+
+figure
+  margin: 0 // Address margin not present in IE 8/9 and Safari 5
 
 // Headings
 // -------------------------
