@@ -38,6 +38,7 @@ html
   background: base-background
   font-size: percent(base-font-size)
   font-family: base-font-family
+  font-weight: base-font-weight
   line-height: base-line-height
   -ms-text-size-adjust: 100%
   -webkit-text-size-adjust: 100%
@@ -53,6 +54,9 @@ p
   font-weight: 100
   line-height: unit(em(base-line-height), '') // Unit-less measurements
   margin-bottom: (em(base-line-height) / em(@font-size))
+
+.light
+  color: #999
 
 
 // Subscript and superscript
@@ -77,6 +81,7 @@ sub
 a
   color: base-link-color
   text-decoration: none
+  border-bottom: 1px solid transparent
 
 a:focus,
 a:hover,
@@ -84,7 +89,7 @@ a:active
   color: base-link-color-hover
 
 a:hover
-  text-decoration: underline
+  border-bottom: 1px solid
 
 
 // Emphasis & misc
@@ -93,6 +98,7 @@ a:hover
 small,
 .text-small
   font-size: 75%
+
 b,
 strong,
 .text-bold
@@ -100,7 +106,8 @@ strong,
 
 em,
 dfn,
-cite
+cite,
+.text-italic
   font-style: italic
 
 mark,
@@ -298,7 +305,7 @@ blockquote
   &:before
     content: "\201C"
     color: #ddd
-    font-size: 8em
+    font-size: 8.5em
     line-height: 1
     font-weight: 200
     position: absolute
