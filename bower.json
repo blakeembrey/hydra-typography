@@ -1,0 +1,13 @@
+{
+  "name": "hydra-typography",
+  "main": [
+    "./typography.css"
+  ],
+  "version": "0.0.7",
+  "dependencies": {
+    "stylus-type-utils": "*"
+  },
+  "devDependencies": {
+    "hydra-grid": "latest"
+  }
+}

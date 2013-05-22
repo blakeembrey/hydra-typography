@@ -1,7 +1,7 @@
 {
-  "name": "default-typography",
-  "version": "0.0.6",
-  "description": "Simple default typography and font style decisions",
+  "name": "hydra-typography",
+  "version": "0.0.7",
+  "description": "Simple default typography and font style resets",
   "main": "lib/typography.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
