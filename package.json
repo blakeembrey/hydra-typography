@@ -15,9 +15,9 @@
   "license": "MIT",
   "readmeFilename": "Readme.md",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-stylus": "~0.5.0",
-    "grunt-contrib-watch": "~0.3.1"
+    "grunt": "~1.0.1",
+    "grunt-contrib-stylus": "~1.2.0",
+    "grunt-contrib-watch": "~1.0.0"
   },
   "peerDependencies": {
     "stylus": "0.x"
